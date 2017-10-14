@@ -75,6 +75,8 @@ For the sticks, -1 is down/right, 1 is up/left, 0 is untouched
   // Set Controls
   lr=truncf(lr*10)/10;
   ud=truncf(ud*10)/10;
+ 
+  
 
   if( controls[3] != lr ) {
     controls[3] = lr;
